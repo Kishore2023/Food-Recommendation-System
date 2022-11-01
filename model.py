@@ -299,12 +299,12 @@ pickle.dump(anime, open('Order1.pkl','wb'))
 
 anime["Order1"].values
 
-anime.to_dict()
+anime_index.to_dict()
 
-pickle.dump(anime.to_dict(), open('Order1.pkl','wb'))
+pickle.dump(anime_index.to_dict(), open('Order1.pkl','wb'))
 
 pickle.dump(cosine_sim_matrix, open('similarity.pkl','wb'))
 
-anime.iloc[15].Order1
+anime.iloc[25].Order1
 
 
